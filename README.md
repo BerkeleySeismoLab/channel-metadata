@@ -32,34 +32,37 @@ production and testing systems.
 
 We plan to take the following steps:
 
-[ ] Clean up the existing channel metadata files to make new Primary
-    Channel Files.  These are the versions that are deployed to the
-    EEW development systems.
+* Clean up the existing channel metadata files to make new Primary
+  Channel Files.  These are the versions that are deployed to the
+  EEW development systems.
 
-[ ] Maintain two filter lists for each site (UCB and USGS Menlo Park):
-    * Station channels in Phase I of the station acceptance process
-    * Station channels in Phase II of the station acceptance process
+* Maintain two filter lists for each site (UCB and USGS Menlo Park):
 
-[ ] Maintain a script that can use the filter lists to make Integration
-    Channel Files and Production/Testing Channnel Files according to the
-    following criteria:
-    * Station channels on the Phase II list are removed from the
-      Integration Channel File
-    * Station channels on the Phase I and Phase II lists are removed
-      from the Production/Testing Channel File
+  * Station channels in Phase I of the station acceptance process
+  * Station channels in Phase II of the station acceptance process
 
-[ ] Maintain all three versions of the channel metadata files (Primary
-    Channel File, Integration Channel File, and Production/Testing
-    Channel File) with version control on the repository site of choice.
+* Maintain a script that can use the filter lists to make Integration
+  Channel Files and Production/Testing Channnel Files according to the
+  following criteria:
 
-[ ] Give the REI coordinator the opportunity to review a channel metadata
-    file before it is deployed to EEW systems.
+  * Station channels on the Phase II list are removed from the
+    Integration Channel File
+  * Station channels on the Phase I and Phase II lists are removed
+    from the Production/Testing Channel File
 
-Each time a ticket is submitted to graduate stations to Phase I or II of
-Station Acceptance, the ticket submitter directs the EEW operator to the
-repository where the appropriate version of the channel metadata file is
-located.  The EEW operator distributes the appropriate version of the
-channel metadata file to the appropriate EEW systems.
+* Maintain all three versions of the channel metadata files (Primary
+  Channel File, Integration Channel File, and Production/Testing
+  Channel File) with version control on the repository site of choice.
+
+* Give the REI coordinator the opportunity to review a channel metadata
+  file before it is deployed to EEW systems.
+
+* Each time a ticket is submitted to graduate stations to Phase I or II
+  of Station Acceptance, the ticket submitter directs the EEW operator
+  to the repository where the appropriate version of the channel
+  metadata file is located.  The EEW operator distributes the
+  appropriate version of the channel metadata file to the appropriate
+  EEW systems.
 
 We still need to address how easy it would be to maintain a separate NN
 list or keep the same system for now (ask Stephane his opinion).
