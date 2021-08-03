@@ -18,7 +18,7 @@ This file is deployed to the EEW development systems.
 **Station Acceptance**: Process whereby station channels are confirmed
 to produce reliable data.
 
-**Integration Channel File**: Version of the PCF with Phase II station
+**Integration Channel File**: Version of the PCF with Phase I station
 channels removed.  This file is deployed to the EEW integration systems.
 
 **Production/Testing Channel File**: Version of the PCF with Phase I and
@@ -45,7 +45,7 @@ We plan to take the following steps:
   Channel Files and Production/Testing Channnel Files according to the
   following criteria:
 
-  * Station channels on the Phase II list are removed from the
+  * Station channels on the Phase I list are removed from the
     Integration Channel File
   * Station channels on the Phase I and Phase II lists are removed
     from the Production/Testing Channel File
