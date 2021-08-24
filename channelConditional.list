@@ -1,0 +1,63 @@
+# Consolidated ConditionalList as of 2017/12/18 JA
+# NOTE: ONSITE SETS CONDITIONAL STATUS OF TRIGGER BASED ON Z CHANNEL, HORIZ DO NOT HAVE CONDITIONAL STATUS UNLESS EXPLICITLY STATED IN THIS FILE
+
+# 2017-12-04 JA -- used 17Oct-05Dec logs (50 days) to edit the listing (use unrejected trigs as criterion > 2.0 per day)
+# 2021-01-19 marchese -- /app/share/etc/channelGrey.list moved to /app/share/etc/channelConditional.list
+# Also use 20Nov-4Dec logs because of new stations
+CE.23077.HNZ.10
+CI.CHI.HNZ.--
+CI.CLT.HNZ.--
+CI.DLA.HHZ.--
+CI.IVY.HNZ.--
+CI.LLS.HHZ.--
+CI.LTP.HHZ.--
+CI.MES.HNZ.--
+CI.MPI.HNZ.--
+CI.MRS.HNZ.--
+CI.PDE.HHZ.--
+CI.PDE.HNZ.--
+CI.RCT.HNZ.--
+CI.RCU.HNZ.--
+CI.SBPX.HNZ.--
+CI.STS.HHZ.--
+CI.STS.HNZ.--
+CI.WRC2.HHZ.--
+CI.WTT2.HHZ.--
+NP.5058.HNZ.10
+NP.5062.HNZ.--
+NP.5272.HNZ.10
+NP.5337.HNZ.10
+
+# 2017-12-04 JA: Updated noisy stations for NC
+NC.MDPB.HNZ.--
+
+# 2017-03-06 RH: Noisy stations (Unrejected triggers > 2.5/day)
+# 2017-09-25 JA: Updated noisy stations for UW
+# 2017-12-04 JA: Updated noisy stations for UW
+UW.BNG.HNE.--
+UW.BNG.HNN.--
+UW.BNG.HNZ.--
+UW.BSFP.ENE.--
+UW.BSFP.ENN.--
+UW.BSFP.ENZ.--
+UW.HART.ENE.--
+UW.HART.ENN.--
+UW.HART.ENZ.--
+UW.KCAM.HNE.--
+UW.KCAM.HNN.--
+UW.KCAM.HNZ.--
+UW.PIER.HNE.--
+UW.PIER.HNN.--
+UW.PIER.HNZ.--
+UW.REED.HNE.--
+UW.REED.HNN.--
+UW.REED.HNZ.--
+UW.TKCO.ENE.--
+UW.TKCO.ENN.--
+UW.TKCO.ENZ.--
+
+# 2017-11-16 RH: K2 dataloggers fixed, only KDK has box cars when k2ew_tcp is restarted
+UW.KDK.ENE.--
+UW.KDK.ENN.--
+UW.KDK.ENZ.--
+

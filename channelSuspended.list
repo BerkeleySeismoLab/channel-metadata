@@ -1,0 +1,85 @@
+# SuspendedList updated at 2018/7/25 CL
+# NOTE: ONSITE SETS STATUS OF TRIGGER BASED ON Z CHANNEL, HORIZ DO NOT HAVE SUSPENDED STATUS UNLESS EXPLICITLY STATED IN THIS FILE, SO WILL BE PROCESSED
+#
+# SuspendedList updated on 11/10/2015 CAF -- removed CI.LDF.HNZ.--
+# SuspendedList updated on 10/25/2015 CAF -- Problem with CI.LDF.HZ.--
+# SuspendedList updated on 2019-11-13 bpardini -- remove BK.BRIB.HHZ.00 and BK.BRIB.HNZ.00
+# SuspendedList 2021-01-19 marchese -- /app/share/etc/channelBlack.list moved to /app/share/etc/channelSuspended.list
+
+# 2014 -- suspended prior to 2014 -- don't know why
+CE.35078.HNZ.--
+
+# 12/23/2014 CAF -- added NC.KHBB per email 12/22/2014 from Maren Boese and John Krueger.
+NC.KHBB.HHZ.--
+NC.KHBB.HNZ.--
+
+# 3/16/2015 CAF -- per Maren particularly for FinDer
+NC.NBO.HNZ.--
+# 2/12/2016 JA -- per Maren particularly for FinDer
+AZ.SCI2.HNZ.--
+AZ.SCI2.HNN.--
+AZ.SCI2.HNE.--
+
+# 7/2/2015 JA -- problems with PG network calibration pulses
+PG.ARD.HNZ.--
+PG.BLD.HNZ.--
+PG.CSD.HNZ.--
+PG.DCD.HNZ.--
+PG.DPD.HNZ.--
+PG.EFD.HNZ.--
+PG.LMD.HNZ.--
+PG.LSD.HNZ.--
+PG.MLD.HNZ.--
+PG.NPD.HNZ.--
+PG.OBS1.HH1.--
+PG.OBS1.HN1.--
+PG.OBS2.HH1.--
+PG.OBS2.HN1.--
+PG.OBS3.HH1.--
+PG.OBS3.HN1.--
+PG.OBS4.HH1.--
+PG.OBS4.HN1.--
+PG.PBD.HNZ.--
+PG.PSD.HNZ.--
+PG.SHD.HNZ.--
+PG.VPD.HNZ.--
+PG.WRD.HNZ.--
+
+#2017/03/09 JA -- station reported dead following storms in Jan, as per email from Debbie (info from Lind, Lynn Dietz)
+NC.KEB.HHZ.--
+NC.KEB.HHN.--
+NC.KEB.HHE.--
+NC.KEB.HNZ.--
+NC.KEB.HNN.--
+NC.KEB.HNE.--
+
+#2018/07/18 SG -- Ivan H. and David C. requested that NC.KCPB should be added for 1 week while demolition to a nearby building takes place
+NC.KCPB.HHZ.--
+NC.KCPB.HHN.--
+NC.KCPB.HHE.--
+NC.KCPB.HNZ.--
+NC.KCPB.HNN.--
+NC.KCPB.HNE.--
+
+#2018/07/25 -- Requested by Renate ticket 8212148918 
+UW.HEBO.BHE.--
+UW.HEBO.BHN.--
+UW.HEBO.BHZ.--
+
+#2020/04/20 -- Ivan H. Requested by Fabia
+BK.WENL.BHE.00
+BK.WENL.BHN.00
+BK.WENL.BHZ.00
+BK.WENL.HHE.00
+BK.WENL.HHN.00
+BK.WENL.HHZ.00
+BK.WENL.HNE.00
+BK.WENL.HNN.00
+BK.WENL.HNZ.00
+
+#2021/08/06 -- Colin O. Bad data started approx. 7/27/21
+UW.WAT2.HHN.--
+UW.WAT2.HHE.--
+UW.WAT2.HHZ.--
+
+# end of file
